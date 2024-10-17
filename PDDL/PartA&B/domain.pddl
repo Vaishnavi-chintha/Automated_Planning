@@ -38,7 +38,7 @@
         (at ?uuv ?location)
         (connected ?location1 ?location2)
         (image_taken ?uuv ?location)
-        (scan_taken ?uuv ? location)
+        (scan_taken ?uuv ?location)
         (sample_collected ?uuv ?location)
     )
 
