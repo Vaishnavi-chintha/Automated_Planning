@@ -13,7 +13,14 @@
 
     ; )
     (:types
-
+        location
+        uuv
+        ;location - uuv
+        image
+        sample
+        sonar_scan
+        ship
+        ;location - ship
     )
 
     ; -------------------------------
@@ -28,7 +35,11 @@
     ; )
 
     (:predicates
-
+        (at ?uuv ?location)
+        (connected ?location1 ?location2)
+        (image_taken ?uuv ?location)
+        (scan_taken ?uuv ? location)
+        (sample_collected ?uuv ?location)
     )
 
     ; -------------------------------
