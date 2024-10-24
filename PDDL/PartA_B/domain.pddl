@@ -45,7 +45,7 @@
         (sample_collected ?uuv ?sample);Shows that uuv collected a sample and has it
         (data_transmitted ?uuv ?ship) ;Shows that data is transmitted from the uuv to the ship
 
-        (with ?uuv ?ship) ;Shows that uuv is at a ship
+        (with ?uuv ?ship) ;Shows that uuv is associated with a ship
     )
 
     ; -------------------------------
