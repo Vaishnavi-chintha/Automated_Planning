@@ -1,4 +1,8 @@
 # CW 1 Automated Planning
+![PDDL Support](https://img.shields.io/badge/PDDL-2.1-blueviolet)
+![BFWS Supported](https://img.shields.io/badge/Planner-BFWS-green)
+![LAMA-first Supported](https://img.shields.io/badge/Planner-LAMA--first-blue)
+![ENHSP Supported](https://img.shields.io/badge/Planner-ENHSP-orange)
 
 This project plans an autonomous underwater vehicle (UUV) mission for wind farm inspection using **PDDL (Planning Domain Definition Language)**. It covers search-based problem solving and automated planning tasks using defined domain and problem files. The coursework is structured in three parts, each progressively increasing in complexity and introducing new features.
 
